@@ -1,12 +1,44 @@
 :root {
-  font: 16px / 1 sans-serif;
+	font: 16px / 1 sans-serif;
 }
 
 html {
-  height: 100%;
+	height: 100%;
 }
 
 body {
-  margin: 0;
-  min-height: 100%;
+	margin: 0;
+	min-height: 100%;
+}
+
+h1 {
+	text-align: center;
+	background-color: blueviolet;
+	color: white;
+	padding: 2rem;
+}
+
+section {
+	background-color: teal;
+	padding-top: 1rem;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+	padding-bottom: 1rem;
+}
+
+main {
+	display: flex;
+}
+
+.left-section {
+	margin-right: 0.5rem;
+}
+
+.center-section {
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+}
+
+.right-section {
+	margin-right: 0.5rem;
 }
